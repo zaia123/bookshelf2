@@ -1,10 +1,10 @@
 <?php
 
-$sname= "sql108.epizy.com";
-$unmae= "epiz_32035829";
-$password = "FUdSQyKL2hl";
+$sname= "localhost";
+$unmae= "root";
+$password = "";
 
-$db_name = "epiz_32035829_thebookshelf";
+$db_name = "test_db";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
